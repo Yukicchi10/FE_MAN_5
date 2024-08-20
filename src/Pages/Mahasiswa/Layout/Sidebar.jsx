@@ -1,5 +1,5 @@
 import { FaBook, FaCalendarAlt, FaHome, FaTasks, FaUserCog } from 'react-icons/fa';
-import logoSI from '../../../Img/LogoSI1.png'
+import logoSI from '../../../Img/LOGOMAN5.png'
 import { Link } from 'react-router-dom';
 
 const SideBar = () => {

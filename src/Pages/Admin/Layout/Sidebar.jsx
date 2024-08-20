@@ -8,7 +8,7 @@ import {
   FaUserCog,
 } from "react-icons/fa";
 import { MdGroup, MdOutlineSchool } from "react-icons/md";
-import logoSI from "../../../Img/LogoSI1.png";
+import logoSI from "../../../Img/LOGOMAN5.png";
 import { Link } from "react-router-dom";
 
 export const SideBarAdmin = () => {

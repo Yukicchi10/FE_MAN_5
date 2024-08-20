@@ -2,7 +2,7 @@ import React from "react";
 import NavBarHome from "../../../Component/NavBarHome/NavBarHome";
 import { Col, Container, Row } from "react-bootstrap";
 import Exam from "../../../Img/exam.png";
-import LogoSI from "../../../Img/LogoSI.png";
+import LogoSI from "../../../Img/LOGO1MAN5.png";
 import "./Home.css";
 import apiDosenProfil from "../../../lib/api/dosen/profil";
 import apiMahasiswaProfil from "../../../lib/api/mahasiswa/profil";

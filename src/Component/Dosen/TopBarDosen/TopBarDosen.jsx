@@ -7,7 +7,7 @@ import {
   FaSun,
 } from "react-icons/fa";
 import useDarkMode from "../../../hooks/useDarkMode";
-import LogoSI from "../../../Img/LogoSI.png";
+import LogoSI from "../../../Img/LOGO1MAN5.png";
 import Navbar from "react-bootstrap/Navbar";
 
 const TopNavDosen = () => {

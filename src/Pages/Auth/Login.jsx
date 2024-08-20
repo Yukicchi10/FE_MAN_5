@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import NavBarHome from "../../Component/NavBarHome/NavBarHome";
-import LogoSI from "../../Img/LogoSI.png";
+import LogoSI from "../../Img/LOGO1MAN5.png";
 import axios from "axios";
 
 const Login = () => {

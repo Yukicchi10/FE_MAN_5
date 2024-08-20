@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FiLogOut } from "react-icons/fi";
-import LogoSI from "../../../Img/LogoSI.png";
+import LogoSI from "../../../Img/LOGO1MAN5.png";
 import { ModalLogout } from "../../../Component/Modal";
 
 const TopBar = () => {

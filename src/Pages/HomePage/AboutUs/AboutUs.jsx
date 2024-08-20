@@ -1,7 +1,7 @@
 import React from "react";
 import NavBarHome from "../../../Component/NavBarHome/NavBarHome";
 import "./AboutUs.css";
-import aboutUsImage from "../../../Img/about-us.png";
+import aboutUsImage from "../../../Img/Classrom.png";
 
 function AboutUs() {
   return (
@@ -12,22 +12,22 @@ function AboutUs() {
           <img
             fluid
             src={aboutUsImage}
-            width="640px"
+            width="auto"
             height="auto"
             alt="logo"
           />
         </div>
-        <div className="bg-orange-500 text-white p-4 rounded-3xl mt-8 ">
+        <div className="bg-gray-500 text-white p-20">
           <h1>
             <div className="text-bold about">Learning Management System</div>
           </h1>
           <label className="h5 mb-4">Study & Monitoring System</label>
           <div className="text-bold">
-            Learning Management System Adalah Website yang dibuat untuk
-            memudahkan sekolah dalam memonitoring dan management pembelajaran
-            online. LMS dilakukan melalui media perantara internet berbasis web.
-            Jadi, semua materi, dan bahan ajar bisa kamu akses melalui sebuah
-            situs web.
+          Selamat datang di LMS MAN 5 GARUT, tempat di mana pembelajaran bertemu dengan inovasi. Kami adalah tim yang berdedikasi, terdiri dari para pendidik, 
+          pengembang, dan inovator yang berkomitmen untuk menyediakan pengalaman belajar yang menarik dan mudah diakses. Platform kami dirancang untuk memberdayakan 
+          individu dan institusi dengan menyajikan konten pendidikan berkualitas tinggi melalui antarmuka yang intuitif dan ramah pengguna. Di LMS MAN 5 GARUT, kami 
+          percaya bahwa pembelajaran harus dipersonalisasi, fleksibel, dan dapat diakses oleh siapa saja, kapan saja, dan di mana saja. Baik Anda seorang pelajar dan pendidik. 
+          tujuan kami adalah meningkatkan perjalanan pendidikan Anda dengan menyediakan alat dan sumber daya yang Anda butuhkan untuk sukses.
           </div>
         </div>
       </div>

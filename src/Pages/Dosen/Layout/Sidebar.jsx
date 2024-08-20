@@ -1,7 +1,7 @@
 import { FaBook, FaCalendar, FaCalendarAlt, FaChalkboardTeacher, FaHome, FaTasks, FaUserCog } from 'react-icons/fa';
 import './SideBarDosen.css'
 import { Link } from 'react-router-dom';
-import logoSI from "../../../Img/LogoSI1.png";
+import logoSI from "../../../Img/LOGOMAN5.png";
 
 const SideBarDosen = () => {
   return (

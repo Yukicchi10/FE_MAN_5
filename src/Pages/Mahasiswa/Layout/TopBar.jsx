@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import LogoSI from "../../../Img/LogoSI.png";
+import LogoSI from "../../../Img/LOGO1MAN5.png";
 import { ModalLogout } from "../../../Component/Modal";
 import { IconButton, Menu, MenuItem } from "@mui/material";
 import { FaUserCircle } from "react-icons/fa";
