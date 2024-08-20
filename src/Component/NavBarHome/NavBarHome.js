@@ -30,25 +30,18 @@ function BasicExample() {
             <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="Panduan" id="basic-nav-dropdown">
               <NavDropdown.Item target="_blank ">
-                Panduan Skripsi 2022
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="About Us" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/about-us">LMS SI</NavDropdown.Item>
+              <NavDropdown.Item href="/about-us">LMS MAN 5 GARUT</NavDropdown.Item>
               <NavDropdown.Item
-                href=""
+                href="https://manlimagarut.sch.id/"
                 target="_blank"
               >
-                IPI Garut
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                href=""
-                target="_blank"
-              >
-                Sistem Informasi
+                MAN 5 GARUT
               </NavDropdown.Item>
               <NavDropdown.Item href="/profil-dosen">
-                Dosen Pengajar
+                Pengajar
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/login">Login</Nav.Link>
