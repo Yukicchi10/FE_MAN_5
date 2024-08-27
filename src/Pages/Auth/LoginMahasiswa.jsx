@@ -50,9 +50,9 @@ export function LoginMahasiswa() {
       <MDBContainer>
         <MDBRow className="d-flex align-items-center h101">
           <MDBCol>
-            <p className="text-center h1 fw-bold">LOGIN MAHASISWA</p>
+            <p className="text-center h1 fw-bold">LOGIN SISWA</p>
             <p className="text-center">
-              Selamat datang di LMS Sistem informasi
+              Selamat datang di LMS MAN 5 GARUT
             </p>
             {validation.error && (
               <div className="alert alert-danger" role="alert">

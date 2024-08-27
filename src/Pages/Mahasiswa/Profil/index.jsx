@@ -25,7 +25,7 @@ export const ProfilMahasiswa = () => {
         <Card.Header>
           <Nav variant="tabs" defaultActiveKey="#first">
             <Nav.Item>
-              <Nav.Item className="h5 fw-bold">Profil Mahasiswa</Nav.Item>
+              <Nav.Item className="h5 fw-bold">Profil Siswa</Nav.Item>
             </Nav.Item>
           </Nav>
         </Card.Header>
@@ -39,7 +39,7 @@ export const ProfilMahasiswa = () => {
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>NIM</Form.Label>
+              <Form.Label>NISN</Form.Label>
               <Form.Control type="email" value={user.nim} disabled />
               <Form.Text className="text-muted"></Form.Text>
             </Form.Group>

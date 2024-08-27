@@ -140,7 +140,7 @@ export function DosenClassDetail() {
           <Table>
             <TableHead>
               <TableRow>
-                <TableCell className="!font-bold">NIM</TableCell>
+                <TableCell className="!font-bold">NISN</TableCell>
                 <TableCell className="!font-bold">Nama</TableCell>
                 <TableCell className="!font-bold">Alamat</TableCell>
                 <TableCell className="!font-bold">Telepon</TableCell>

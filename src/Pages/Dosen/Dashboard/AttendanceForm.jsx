@@ -41,7 +41,7 @@ export function AttendanceForm({ open, onClose, selectedData, onSuccess }) {
           <Table>
             <TableHead>
               <TableRow>
-                <TableCell className="!font-bold">NIM</TableCell>
+                <TableCell className="!font-bold">NISN</TableCell>
                 <TableCell className="!font-bold">Nama</TableCell>
                 <TableCell className="!font-bold">Status</TableCell>
               </TableRow>

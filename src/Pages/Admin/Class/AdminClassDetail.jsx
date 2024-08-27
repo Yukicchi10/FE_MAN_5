@@ -94,7 +94,7 @@ export function AdminClassDetail() {
                 setOpenForm(true);
               }}
             >
-              Tambah Mahasiswa
+              Tambah Siswa
             </MenuItem>
             <MenuItem
               onClick={() => {
@@ -102,7 +102,7 @@ export function AdminClassDetail() {
                 setOpenFormMapel(true);
               }}
             >
-              Tambah Mata Kuliah
+              Tambah Mata Pelajaran
             </MenuItem>
           </Menu>
         </div>
@@ -116,7 +116,7 @@ export function AdminClassDetail() {
           <Table>
             <TableHead>
               <TableRow>
-                <TableCell className="!font-bold">NIM</TableCell>
+                <TableCell className="!font-bold">NIS</TableCell>
                 <TableCell className="!font-bold">Nama</TableCell>
                 <TableCell className="!font-bold">Alamat</TableCell>
                 <TableCell className="!font-bold">Telepon</TableCell>
@@ -166,9 +166,8 @@ export function AdminClassDetail() {
           <Table>
             <TableHead>
               <TableRow>
-                <TableCell className="!font-bold">Mata Kuliah</TableCell>
-                <TableCell className="!font-bold">SKS</TableCell>
-                <TableCell className="!font-bold">Dosen</TableCell>
+                <TableCell className="!font-bold">Mata Pelajaran</TableCell>
+                <TableCell className="!font-bold">Guru</TableCell>
                 <TableCell className="!font-bold">Ruang</TableCell>
                 <TableCell className="!font-bold">Hari</TableCell>
                 <TableCell className="!font-bold">Waktu</TableCell>
@@ -179,7 +178,6 @@ export function AdminClassDetail() {
               {data?.mapel.map((row) => (
                 <TableRow key={row.id}>
                   <TableCell>{row.nama_mapel}</TableCell>
-                  <TableCell>{row.sks}</TableCell>
                   <TableCell>{row.teacher_name}</TableCell>
                   <TableCell>{row.room}</TableCell>
                   <TableCell>{row.day}</TableCell>

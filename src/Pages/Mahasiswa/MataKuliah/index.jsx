@@ -25,13 +25,12 @@ export const MataKuliah = () => {
   }, []);
   return (
     <Layout>
-      <h6 class="text-2xl font-semibold mt-4"> Mata Kuliah</h6>
+      <h6 class="text-2xl font-semibold mt-4"> Mata Pelajaran</h6>
       <TableContainer component={Paper} className="mt-2">
         <Table>
           <TableHead>
             <TableRow>
               <TableCell className="!font-bold">Nama</TableCell>
-              <TableCell className="!font-bold">SKS</TableCell>
               <TableCell className="!font-bold">Dosen</TableCell>
               <TableCell className="!font-bold">Ruang</TableCell>
               <TableCell className="!font-bold">Hari</TableCell>
@@ -43,7 +42,6 @@ export const MataKuliah = () => {
             {mapel.map((row) => (
               <TableRow key={row.id}>
                 <TableCell>{row.nama_mapel}</TableCell>
-                <TableCell>{row.sks} SKS</TableCell>
                 <TableCell>{row.teacher_name}</TableCell>
                 <TableCell>{row.room}</TableCell>
                 <TableCell>{row.day}</TableCell>
